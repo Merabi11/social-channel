@@ -8,23 +8,28 @@
 }
 
 body {
-  /* height: 100vh; */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: #ffffff;
   background-color: #5d5d5d;
 }
 
 .social-div {
   width: 150px;
-  margin-top: 10px;
-  gap: 20px;
+  margin-top: 50px;
+  gap: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .social-div img {
-  width: 30px;
+  width: 100px;
+}
+
+footer {
+  width: 300px;
 }
